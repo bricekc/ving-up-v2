@@ -1,0 +1,7 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+get_user_resultat:
+  path: /api/resultat_questionnaires/user/{userId}
+  controller: App\Controller\UserResultatQuestionnaireController::getUserResultat
+  methods: ['GET']
